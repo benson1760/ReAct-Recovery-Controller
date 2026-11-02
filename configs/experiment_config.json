@@ -1,0 +1,42 @@
+{
+  "project_name": "ReAct Recovery Controller",
+  "research_question": "Can explicit query reformulation improve ReAct recovery from unproductive searches without interfering with natural recovery?",
+  "dataset": {
+    "name": "FEVER",
+    "validation_cases": 3,
+    "pilot_cases": 30,
+    "labels": [
+      "SUPPORTS",
+      "REFUTES",
+      "NOT ENOUGH INFO"
+    ]
+  },
+  "conditions": [
+    {
+      "id": "standard_react",
+      "description": "The agent receives the observation and independently chooses its next action."
+    },
+    {
+      "id": "detection_only",
+      "description": "The agent is informed that the previous search was unproductive but independently chooses its next action."
+    },
+    {
+      "id": "enforced_reformulation",
+      "description": "The agent is informed that the previous search was unproductive and must issue a meaningfully different query."
+    }
+  ],
+  "metrics": [
+    "final_answer_accuracy",
+    "task_completion_rate",
+    "successful_recovery_rate",
+    "repeated_query_rate",
+    "effective_reformulation_rate",
+    "premature_stopping_rate",
+    "unsupported_answer_rate",
+    "average_tool_calls",
+    "average_trajectory_length",
+    "runtime_seconds"
+  ],
+  "repeated_runs": 1,
+  "random_seed": 42
+}

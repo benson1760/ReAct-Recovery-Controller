@@ -1,0 +1,22 @@
+{
+  "project_name": "ReAct Recovery Controller",
+  "experiment_name": "three_case_baseline_validation",
+  "dataset_path": "data/samples/fever_validation.json",
+  "results_path": "results/logs/baseline_validation.jsonl",
+  "metrics_path": "results/metrics/baseline_validation_metrics.json",
+  "model": {
+    "name": null,
+    "device": "cuda",
+    "temperature": 0.0,
+    "max_new_tokens": 256
+  },
+  "agent": {
+    "condition": "standard_react",
+    "max_actions": 5
+  },
+  "retrieval": {
+    "type": "controlled_local",
+    "maximum_results": 3
+  },
+  "random_seed": 42
+}

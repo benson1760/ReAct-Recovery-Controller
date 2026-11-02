@@ -1,0 +1,41 @@
+[
+  {
+    "case_id": "fever_001",
+    "claim": "The Eiffel Tower is located in Paris.",
+    "gold_label": "SUPPORTS",
+    "search_query": "Eiffel Tower location",
+    "evidence": [
+      {
+        "document_id": "eiffel_tower",
+        "text": "The Eiffel Tower is a wrought-iron tower located on the Champ de Mars in Paris, France.",
+        "stance": "SUPPORTS"
+      }
+    ]
+  },
+  {
+    "case_id": "fever_002",
+    "claim": "The Great Wall of China is located in Brazil.",
+    "gold_label": "REFUTES",
+    "search_query": "Great Wall of China location",
+    "evidence": [
+      {
+        "document_id": "great_wall",
+        "text": "The Great Wall of China is a series of fortifications located in northern China.",
+        "stance": "REFUTES"
+      }
+    ]
+  },
+  {
+    "case_id": "fever_003",
+    "claim": "The Eiffel Tower was painted green in 1955.",
+    "gold_label": "NOT ENOUGH INFO",
+    "search_query": "Eiffel Tower painted green 1955",
+    "evidence": [
+      {
+        "document_id": "eiffel_tower",
+        "text": "The Eiffel Tower is a wrought-iron tower located on the Champ de Mars in Paris, France.",
+        "stance": "NOT ENOUGH INFO"
+      }
+    ]
+  }
+]

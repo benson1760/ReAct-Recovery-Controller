@@ -1,0 +1,24 @@
+{
+  "total_cases": 3,
+  "correct_cases": 3,
+  "accuracy": 1.0,
+  "completed_cases": 3,
+  "completion_rate": 1.0,
+  "average_tool_calls": 1.0,
+  "average_trajectory_length": 1.0,
+  "average_runtime_seconds": 8e-06,
+  "predicted_label_counts": {
+    "SUPPORTS": 1,
+    "REFUTES": 1,
+    "NOT ENOUGH INFO": 1
+  },
+  "gold_label_counts": {
+    "SUPPORTS": 1,
+    "REFUTES": 1,
+    "NOT ENOUGH INFO": 1
+  },
+  "failure_type_counts": {},
+  "pipeline_mode": "controlled_validation",
+  "condition": "standard_react",
+  "interpretation": "Controlled pipeline-validation metrics. These are not official FEVER benchmark results."
+}
