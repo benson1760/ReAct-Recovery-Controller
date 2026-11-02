@@ -1,0 +1,69 @@
+{
+  "dataset": "FEVER v1.0",
+  "source_file": "shared_task_dev.jsonl",
+  "source_split": "shared_task_dev",
+  "source_url": "https://fever.ai/download/fever/shared_task_dev.jsonl",
+  "created_at_utc": "2026-11-02T17:45:00.717713+00:00",
+  "sampling_method": "e of unique FEVER claim IDs",
+  "random_seed": 42,
+  "cases_per_label": 10,
+  "total_cases": 30,
+  "target_labels": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "source_record_count": 19998,
+  "source_label_distribution": {
+    "NOT ENOUGH INFO": 6666,
+    "SUPPORTS": 6666,
+    "REFUTES": 6666
+  },
+  "source_unique_claims_by_label": {
+    "SUPPORTS": 6666,
+    "REFUTES": 6666,
+    "NOT ENOUGH INFO": 6666
+  },
+  "sample_label_distribution": {
+    "SUPPORTS": 10,
+    "NOT ENOUGH INFO": 10,
+    "REFUTES": 10
+  },
+  "selected_fever_ids": [
+    116870,
+    175870,
+    64590,
+    111745,
+    213949,
+    205089,
+    131295,
+    154191,
+    44900,
+    46059,
+    154156,
+    161566,
+    173609,
+    79639,
+    28324,
+    207332,
+    13313,
+    173505,
+    121468,
+    223674,
+    53475,
+    211865,
+    17423,
+    5578,
+    72194,
+    20603,
+    208157,
+    221129,
+    93610,
+    218249
+  ],
+  "notes": [
+    "This pilot contains authentic FEVER development claims selected for preliminary experiments.",
+    "The separate fever_validation.json file contains synthetic software-validation fixtures.",
+    "The full raw FEVER source file should not be committed to the Git repository."
+  ]
+}

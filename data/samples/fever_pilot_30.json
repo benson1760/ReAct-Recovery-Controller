@@ -1,0 +1,760 @@
+[
+  {
+    "fever_id": 116870,
+    "claim": "A River Runs Through It has been nominated for an Oscar.",
+    "gold_label": "SUPPORTS",
+    "verifiable": "VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          137229,
+          152054,
+          "A_River_Runs_Through_It_-LRB-film-RRB-",
+          5
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 175870,
+    "claim": "Chris Mullin played with a professional basketball team in the 1990s.",
+    "gold_label": "NOT ENOUGH INFO",
+    "verifiable": "NOT VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          203637,
+          null,
+          null,
+          null
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 64590,
+    "claim": "Mutiny on the Bounty was adapted exactly once into a movie.",
+    "gold_label": "REFUTES",
+    "verifiable": "VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          205476,
+          214055,
+          "Mutiny_on_the_Bounty_-LRB-1962_film-RRB-",
+          4
+        ]
+      ],
+      [
+        [
+          316777,
+          305900,
+          "Mutiny_on_the_Bounty_-LRB-1962_film-RRB-",
+          4
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 111745,
+    "claim": "Nate Diaz competed in California for Strikeforce.",
+    "gold_label": "NOT ENOUGH INFO",
+    "verifiable": "NOT VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          131146,
+          null,
+          null,
+          null
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 213949,
+    "claim": "Gray Matter Interactive Studios, Inc. was a person.",
+    "gold_label": "REFUTES",
+    "verifiable": "VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          253973,
+          253757,
+          "Gray_Matter_Interactive",
+          0
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 205089,
+    "claim": "The Little Prince (2015 film) is a 3D animated television show.",
+    "gold_label": "REFUTES",
+    "verifiable": "VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          242312,
+          243713,
+          "The_Little_Prince_-LRB-2015_film-RRB-",
+          0
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 131295,
+    "claim": "Tatum O'Neal spent her life single.",
+    "gold_label": "REFUTES",
+    "verifiable": "VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          153583,
+          168421,
+          "Tatum_O'Neal",
+          3
+        ]
+      ],
+      [
+        [
+          153583,
+          168422,
+          "Tatum_O'Neal",
+          6
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 154191,
+    "claim": "Talulah Riley appeared in Worcester.",
+    "gold_label": "NOT ENOUGH INFO",
+    "verifiable": "NOT VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          178178,
+          null,
+          null,
+          null
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 44900,
+    "claim": "The Ellen Show was created by an act of providence.",
+    "gold_label": "NOT ENOUGH INFO",
+    "verifiable": "NOT VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          61267,
+          null,
+          null,
+          null
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 46059,
+    "claim": "An exampled of a folk hero was Bhagat Singh.",
+    "gold_label": "SUPPORTS",
+    "verifiable": "VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          62388,
+          72988,
+          "Bhagat_Singh",
+          19
+        ]
+      ],
+      [
+        [
+          62388,
+          72989,
+          "Bhagat_Singh",
+          0
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 154156,
+    "claim": "Fred Seibert only produces for satellite television.",
+    "gold_label": "REFUTES",
+    "verifiable": "VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          178144,
+          190759,
+          "Fred_Seibert",
+          3
+        ]
+      ],
+      [
+        [
+          178144,
+          190760,
+          "Fred_Seibert",
+          0
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 161566,
+    "claim": "Baz Luhrmann's film Waluigi is an epic historical romantic drama.",
+    "gold_label": "NOT ENOUGH INFO",
+    "verifiable": "NOT VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          186113,
+          null,
+          null,
+          null
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 173609,
+    "claim": "After its revival in 2009 Hair (musical) won a Tony.",
+    "gold_label": "NOT ENOUGH INFO",
+    "verifiable": "NOT VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          200596,
+          null,
+          null,
+          null
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 79639,
+    "claim": "Rob Sheridan was born in 1976.",
+    "gold_label": "REFUTES",
+    "verifiable": "VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          96588,
+          109748,
+          "Rob_Sheridan",
+          0
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 28324,
+    "claim": "Muscarinic acetylcholine receptors are actylcholine receptors.",
+    "gold_label": "SUPPORTS",
+    "verifiable": "VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          44444,
+          53109,
+          "Muscarinic_acetylcholine_receptor",
+          0
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 207332,
+    "claim": "Military deception is a form of disinformation.",
+    "gold_label": "SUPPORTS",
+    "verifiable": "VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          245180,
+          246061,
+          "Military_deception",
+          2
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 13313,
+    "claim": "Sean Penn was in Vietnam.",
+    "gold_label": "NOT ENOUGH INFO",
+    "verifiable": "NOT VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          28550,
+          null,
+          null,
+          null
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 173505,
+    "claim": "Sancho Panza is a character in a novel written by an author.",
+    "gold_label": "SUPPORTS",
+    "verifiable": "VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          200465,
+          209970,
+          "Sancho_Panza",
+          0
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 121468,
+    "claim": "Homo sapiens are on the IUCN Red List.",
+    "gold_label": "SUPPORTS",
+    "verifiable": "VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          142645,
+          157800,
+          "Homo_sapiens",
+          3
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 223674,
+    "claim": "Ludwig van Beethoven was abandoned by his father Johann van Beethoven and Christian Gottlob Neefe.",
+    "gold_label": "NOT ENOUGH INFO",
+    "verifiable": "NOT VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          266475,
+          null,
+          null,
+          null
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 53475,
+    "claim": "Guns N' Roses started in 1980.",
+    "gold_label": "REFUTES",
+    "verifiable": "VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          70608,
+          81510,
+          "Guns_N'_Roses",
+          0
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 211865,
+    "claim": "See.SZA.Run is influenced by Jay-Z and Lil Kim.",
+    "gold_label": "NOT ENOUGH INFO",
+    "verifiable": "NOT VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          251121,
+          null,
+          null,
+          null
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 17423,
+    "claim": "Baloch people are part of a diverse Indo-European ethno-linguistic group and they are cultured.",
+    "gold_label": "NOT ENOUGH INFO",
+    "verifiable": "NOT VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          32878,
+          null,
+          null,
+          null
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 5578,
+    "claim": "Australia (2008 film) production took place in Kununurra.",
+    "gold_label": "SUPPORTS",
+    "verifiable": "VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          23104,
+          28449,
+          "Australia_-LRB-2008_film-RRB-",
+          4
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 72194,
+    "claim": "Mellila is a city.",
+    "gold_label": "SUPPORTS",
+    "verifiable": "VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          88878,
+          101508,
+          "Melilla",
+          0
+        ]
+      ],
+      [
+        [
+          88878,
+          101509,
+          "Melilla",
+          1
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 20603,
+    "claim": "Yemen does not have an area of 203,850 square miles.",
+    "gold_label": "SUPPORTS",
+    "verifiable": "VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          36401,
+          43992,
+          "Yemen",
+          1
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 208157,
+    "claim": "Easy A is written by a stork.",
+    "gold_label": "REFUTES",
+    "verifiable": "VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          247269,
+          247588,
+          "Easy_A",
+          0
+        ],
+        [
+          247269,
+          247588,
+          "Bert_V._Royal",
+          0
+        ]
+      ],
+      [
+        [
+          247270,
+          247589,
+          "Easy_A",
+          0
+        ],
+        [
+          247270,
+          247589,
+          "Will_Gluck",
+          0
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 221129,
+    "claim": "Ted Cruz has only ever been a plumber his whole life.",
+    "gold_label": "REFUTES",
+    "verifiable": "VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          263305,
+          261014,
+          "Ted_Cruz",
+          0
+        ]
+      ],
+      [
+        [
+          263305,
+          261015,
+          "Ted_Cruz",
+          5
+        ]
+      ],
+      [
+        [
+          263305,
+          261016,
+          "Ted_Cruz",
+          8
+        ]
+      ],
+      [
+        [
+          263305,
+          261017,
+          "Ted_Cruz",
+          9
+        ]
+      ],
+      [
+        [
+          263305,
+          261018,
+          "Ted_Cruz",
+          10
+        ]
+      ],
+      [
+        [
+          263305,
+          261019,
+          "Ted_Cruz",
+          15
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 93610,
+    "claim": "Britt Robertson is an entertainer.",
+    "gold_label": "SUPPORTS",
+    "verifiable": "VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          110986,
+          124654,
+          "Britt_Robertson",
+          0
+        ]
+      ],
+      [
+        [
+          110986,
+          124655,
+          "Britt_Robertson",
+          1
+        ]
+      ],
+      [
+        [
+          110986,
+          124656,
+          "Britt_Robertson",
+          2
+        ]
+      ],
+      [
+        [
+          110986,
+          124657,
+          "Britt_Robertson",
+          3
+        ]
+      ],
+      [
+        [
+          110986,
+          124658,
+          "Britt_Robertson",
+          6
+        ]
+      ],
+      [
+        [
+          110986,
+          124659,
+          "Britt_Robertson",
+          7
+        ]
+      ],
+      [
+        [
+          110986,
+          124660,
+          "Britt_Robertson",
+          8
+        ]
+      ],
+      [
+        [
+          110986,
+          124661,
+          "Britt_Robertson",
+          9
+        ]
+      ],
+      [
+        [
+          110986,
+          124662,
+          "Britt_Robertson",
+          12
+        ]
+      ],
+      [
+        [
+          110986,
+          124663,
+          "Britt_Robertson",
+          13
+        ]
+      ],
+      [
+        [
+          110986,
+          124664,
+          "Britt_Robertson",
+          14
+        ]
+      ],
+      [
+        [
+          110986,
+          124665,
+          "Britt_Robertson",
+          15
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  },
+  {
+    "fever_id": 218249,
+    "claim": "Libya is a country outside of Africa.",
+    "gold_label": "REFUTES",
+    "verifiable": "VERIFIABLE",
+    "source_dataset": "FEVER v1.0",
+    "source_split": "shared_task_dev",
+    "evidence": [
+      [
+        [
+          259475,
+          258047,
+          "Libya",
+          2
+        ]
+      ]
+    ],
+    "sampling_seed": 42
+  }
+]
