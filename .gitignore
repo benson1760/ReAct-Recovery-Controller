@@ -221,3 +221,6 @@ __marimo__/
 
 # Official FEVER source data
 data/raw/fever/*.jsonl
+
+# Raw FEVER Wikipedia snapshot
+data/raw/fever/wiki-pages/
