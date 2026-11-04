@@ -224,3 +224,6 @@ data/raw/fever/*.jsonl
 
 # Raw FEVER Wikipedia snapshot
 data/raw/fever/wiki-pages/
+
+# Raw FEVER Wikipedia snapshot
+data/raw/fever/wiki-pages/
