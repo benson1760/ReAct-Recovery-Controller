@@ -1,0 +1,32 @@
+fever_id,claim,top_page,gold_label,prediction,correct,failure_type,notes
+116870,A River Runs Through It has been nominated for an Oscar.,A River Runs Through It (film),SUPPORTS,NOT ENOUGH INFO,False,EVIDENCE_DEPTH_FAILURE,Correct page retrieved but summary lacked Oscar nomination information
+175870,Chris Mullin played with a professional basketball team in the 1990s.,Gray Matter Studios,NOT ENOUGH INFO,NOT ENOUGH INFO,True,CORRECT,No issue
+64590,Mutiny on the Bounty was adapted exactly once into a movie.,Mutiny on the Bounty (1962 film),REFUTES,REFUTES,True,CORRECT,No issue
+111745,Nate Diaz competed in California for Strikeforce.,Britt Robertson,NOT ENOUGH INFO,REFUTES,False,RETRIEVAL_FAILURE,Wrong page retrieved
+213949,"Gray Matter Interactive Studios, Inc. was a person.",Gray Matter Studios,REFUTES,REFUTES,True,CORRECT,No issue
+205089,The Little Prince (2015 film) is a 3D animated television show.,The Little Prince (2015 film),REFUTES,NOT ENOUGH INFO,False,EVIDENCE_DEPTH_FAILURE,Correct page retrieved but summary insufficient
+131295,Tatum O'Neal spent her life single.,Tatum O'Neal,REFUTES,REFUTES,True,CORRECT,No issue
+154191,Talulah Riley appeared in Worcester.,Britt Robertson,NOT ENOUGH INFO,NOT ENOUGH INFO,True,CORRECT,No issue
+44900,The Ellen Show was created by an act of providence.,Gray Matter Studios,NOT ENOUGH INFO,NOT ENOUGH INFO,True,CORRECT,No issue
+46059,An exampled of a folk hero was Bhagat Singh.,Bhagat Singh,SUPPORTS,SUPPORTS,True,CORRECT,No issue
+154156,Fred Seibert only produces for satellite television.,Fred Seibert,REFUTES,REFUTES,True,CORRECT,No issue
+161566,Baz Luhrmann's film Waluigi is an epic historical romantic drama.,Australia (2008 film),NOT ENOUGH INFO,REFUTES,False,RETRIEVAL_FAILURE,Unrelated page retrieved
+173609,After its revival in 2009 Hair (musical) won a Tony.,The Little Prince (2015 film),NOT ENOUGH INFO,REFUTES,False,RETRIEVAL_FAILURE,Wrong page retrieved
+79639,Rob Sheridan was born in 1976.,Rob Sheridan,REFUTES,NOT ENOUGH INFO,False,EVIDENCE_DEPTH_FAILURE,Correct page but summary lacked birth-year evidence
+28324,Muscarinic acetylcholine receptors are actylcholine receptors.,Muscarinic acetylcholine receptor,SUPPORTS,SUPPORTS,True,CORRECT,No issue
+207332,Military deception is a form of disinformation.,Military deception,SUPPORTS,NOT ENOUGH INFO,False,EVIDENCE_DEPTH_FAILURE,Correct page retrieved but evidence too shallow
+13313,Sean Penn was in Vietnam.,Tatum O'Neal,NOT ENOUGH INFO,NOT ENOUGH INFO,True,CORRECT,No issue
+173505,Sancho Panza is a character in a novel written by an author.,Sancho Panza,SUPPORTS,SUPPORTS,True,CORRECT,No issue
+121468,Homo sapiens are on the IUCN Red List.,Human,SUPPORTS,REFUTES,False,REASONING_FAILURE,Relevant page retrieved but incorrect conclusion
+223674,Ludwig van Beethoven was abandoned by his father Johann van Beethoven and Christian Gottlob Neefe.,Fred Seibert,NOT ENOUGH INFO,NOT ENOUGH INFO,True,CORRECT,No issue
+53475,Guns N' Roses started in 1980.,Guns N' Roses,REFUTES,REFUTES,True,CORRECT,No issue
+211865,See.SZA.Run is influenced by Jay-Z and Lil Kim.,Will Gluck,NOT ENOUGH INFO,REFUTES,False,RETRIEVAL_FAILURE,Wrong page retrieved
+17423,Baloch people are part of a diverse Indo-European ethno-linguistic group and they are cultured.,Human,NOT ENOUGH INFO,NOT ENOUGH INFO,True,CORRECT,No issue
+5578,Australia (2008 film) production took place in Kununurra.,Australia (2008 film),SUPPORTS,REFUTES,False,REASONING_FAILURE,Correct page but incorrect inference
+72194,Mellila is a city.,Melilla,SUPPORTS,SUPPORTS,True,CORRECT,No issue
+20603,"Yemen does not have an area of 203,850 square miles.",Yemen,SUPPORTS,REFUTES,False,REASONING_FAILURE,Correct page but incorrect inference
+208157,Easy A is written by a stork.,Easy A,REFUTES,REFUTES,True,CORRECT,No issue
+221129,Ted Cruz has only ever been a plumber his whole life.,Ted Cruz,REFUTES,REFUTES,True,CORRECT,No issue
+93610,Britt Robertson is an entertainer.,Britt Robertson,SUPPORTS,SUPPORTS,True,CORRECT,No issue
+218249,Libya is a country outside of Africa.,Libya,REFUTES,REFUTES,True,CORRECT,No issue
+REFUTES,True,CORRECT,No issue
