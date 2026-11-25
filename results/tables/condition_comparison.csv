@@ -1,0 +1,4 @@
+condition,cases,correct,accuracy
+standard_react,30,19,0.6333
+detection_only,30,21,0.7000
+enforced_reformulation,,,
