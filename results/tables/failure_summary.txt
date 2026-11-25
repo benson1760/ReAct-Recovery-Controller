@@ -11,5 +11,4 @@ Interpretation
 --------------
 Most failures (8 of 11) are retrieval- or evidence-quality related.
 Only 3 failures appear to be reasoning failures.
-This suggests that retrieval behavior is a more significant bottleneck
-than model reasoning for the current baseline.
+This suggests retrieval behavior is a more significant bottleneck than reasoning for the current baseline.
