@@ -1,0 +1,26 @@
+{
+  "standard_react": {
+    "cases": 30,
+    "correct": 19,
+    "accuracy": 0.6333
+  },
+  "detection_only": {
+    "cases": 30,
+    "correct": 21,
+    "accuracy": 0.7000
+  },
+  "enforced_reformulation": {
+    "cases": 30,
+    "correct": 16,
+    "accuracy": 0.5333
+  },
+  "findings": {
+    "finding_1": "Detection improved performance over the baseline.",
+    "finding_2": "Forced reformulation reduced performance compared with both baseline and detection-only conditions.",
+    "finding_3": "Retrieval and evidence quality were the dominant sources of failure."
+  },
+  "interpretation": {
+    "best_condition": "DETECTION_ONLY",
+    "research_conclusion": "Detection of potentially poor retrieval improved performance, while mandatory reformulation introduced additional errors."
+  }
+}
